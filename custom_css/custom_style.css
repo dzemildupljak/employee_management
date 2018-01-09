@@ -1,0 +1,28 @@
+.dodati_red
+{
+	float: right;
+	width: 50px;
+	margin: 3px;
+	padding: 3px;
+	background:rgb(255, 153, 0, .8);
+}
+.kolona_id
+{
+	/*background-color: rgb(255, 255, 0,.2);*/
+}
+.kolona_name
+{
+	background-color: rgb(0, 255, 0,.1);
+}
+.kolona_address
+{
+	/*background-color: rgb(0, 255, 0,.2);*/
+}
+.kolona_gender
+{
+	/*background-color: rgb(0, 255, 0,.2);*/
+}
+.kolona_age
+{
+	background-color: rgb(0, 102, 204,.1);
+}

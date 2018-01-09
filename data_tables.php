@@ -7,34 +7,21 @@
 <?php include 'side_top_menu_template.php'; ?>
 <div id="content">
   <div id="content-header">
-    <div id="breadcrumb"> <a href="index.php" title="Go to Home" class="tip-bottom"><i class="icon-home"></i> Home</a> <a href="#" class="current">Tables</a> </div>
-    <h1>Tables</h1>
+    <div id="breadcrumb"> <a href="index.php" title="Go to Home" class="tip-bottom"><i class="icon-home"></i> Home</a> <a href="#" class="current">DataTables</a> </div>
   </div>
   <div class="container-fluid">
-    <hr>
-    <div class="row-fluid">
-      <div class="span12">
-        <div class="widget-box">
-          <div class="widget-title"> <span class="icon"> <i class="icon-th"></i> </span>
-            <h5>Tabela Radnika</h5>
-            <a type="button" class="btn btn-warning btn-mini dodati_red" id="<?php echo $red["id"]; ?>">
-              <i class="fa fa-plus" aria-hidden="true"> Add</i>
-            </a>
-          </div>
-          <div class="widget-content nopadding">
-            <div style="height: 500px; overflow-y: scroll;">
-            <table class="table table-bordered table-hover table-responsive table-condensed main_table">
-              <thead>
-                <tr>
-                  <th>Id</th>
-                  <th>Name</th>
-                  <th>Adress</th>
-                  <th>Gender</th>
-                  <th>Age</th>
-                  <th>Functions</th>
-                </tr>
-              </thead>
-              <tbody>
+  	<table id="example" class="display" cellspacing="0" width="80%">
+        <thead>
+            <tr>
+            	<th>Id</th>
+              	<th>Name</th>
+              	<th>Adress</th>
+              	<th>Gender</th>
+              	<th>Age</th>
+              	<th>Functions</th>
+            </tr>
+        </thead>
+        <tbody>
                 <?php
                   if ($rezultat->num_rows > 0)
                   {
@@ -68,13 +55,7 @@
                   }
                 ?>
               </tbody>
-            </table>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+    </table>
 </div>
 <!-- Modal izmena podataka -->
   <div id="izmena_podataka_u_redu" class="modal fade" role="dialog">
@@ -150,4 +131,4 @@
     </div>
    </div>
   </div>
-<?php include 'footer_template.php'; ?> 
+<?php include 'footer_template.php'; ?>

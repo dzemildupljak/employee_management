@@ -1,7 +1,7 @@
 
 <!--Footer-part-->
 <div class="row-fluid">
-  <div id="footer" class="span12"> 2013 &copy; Matrix Admin. Brought to you by <a href="http://themedesigner.in">Themedesigner.in</a> </div>
+  <div id="footer" class="span12"> 2018 &copy; Admin Emloyee Managment. Brought to you by <a href="#">Dzemil Dupljak</a> </div>
 </div>
 <!--end-Footer-part-->
 <script src="js/excanvas.min.js"></script> 
@@ -24,6 +24,8 @@
 <script src="js/jquery.dataTables.min.js"></script> 
 <script src="js/matrix.tables.js"></script> 
 <script src="js/matrix.interface.js"></script> 
+<script src="custom_js/brisanje_data_table.js"></script> 
+<script src="custom_js/prikaz_detalja_iz_reda.js"></script> 
 <script type="text/javascript">
   // This function is called from the pop-up menus to transfer to
   // a different page. Ignore if the value returned is a null string:
